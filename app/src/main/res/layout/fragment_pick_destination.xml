@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.PickDestinationFragment"
+    android:paddingBottom="15dp"
+    android:id="@+id/layout_root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/home_screen_image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"
+            android:text="@string/city"
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner_pick_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tv_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"
+            android:text="@string/pick_your_destination"
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="14sp"
+            android:visibility="invisible"/>
+
+        <Spinner
+            android:id="@+id/spinner_pick_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_vehicle_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"
+            android:text="@string/vehicle_type"
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="14sp"
+            android:visibility="invisible"/>
+
+        <RadioGroup
+            android:id="@+id/radio_vehicle_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <RadioButton
+                android:id="@+id/radio_four_wheeler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/four_wheeler" />
+
+            <RadioButton
+                android:id="@+id/radio_two_wheeler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/two_wheeler" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/view_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorDarkGreen"
+            android:padding="10dp"
+            android:text="@string/view_parking_details"
+            android:textColor="@color/white"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</ScrollView>

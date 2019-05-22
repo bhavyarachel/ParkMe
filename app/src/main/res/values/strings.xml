@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Park Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_to_park_me">New to Park Me?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="name">User Name</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="pick_your_destination">Pick your destination</string>
+    <string name="vehicle_type">Select vehicle type</string>
+    <string name="four_wheeler">Four Wheeler</string>
+    <string name="two_wheeler">Two Wheeler</string>
+    <string name="city">Pick your city</string>
+    <string name="view_parking_details">View Parking Details</string>
+    <string name="destination_name">Destination Name:</string>
+    <string name="not_available">N/A</string>
+    <string name="available_parking_slots">Free slots available:</string>
+    <string name="selected_vehicle_type">Selected vehicle type:</string>
+    <string name="book_slot">Book Slot</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="vehicle_reg_number">Enter your vehicle registration number</string>
+
+    <string name="enter_password">Please enter your password</string>
+    <string name="enter_valid_email">Please enter a valid email</string>
+    <string name="enter_email">Please enter your email</string>
+    <string name="loading">Loading...</string>
+    <string name="something_went_wrong">Something went wrong. Please try again!</string>
+    <string name="network_error">Check your network connection</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_valid_phone_number">Enter a valid phone number</string>
+    <string name="username_empty">Username cannot be empty</string>
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="enter_confirm_password">Enter password for confimation</string>
+    <string name="no_cities_available">No cities available</string>
+    <string name="no_parking_available">No parking locations available for this city</string>
+    <string name="no_slot_available_for_parking">No slot available for parking</string>
+    <string name="rating">Rating:</string>
+    <string name="parking_address">Address:</string>
+    <string name="total_slots">Total slots in this parking:</string>
+    <string name="find_parking">Find Parking</string>
+    <string name="parking_location_details">Parking Location Details</string>
+    <string name="user_profile">User Profile</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="logout">Logout</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="logging_out">Logging out...</string>
+    <string name="username">Username: </string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="vehicles_added">Vehicles:</string>
+    <string name="edit">Edit</string>
+    <string name="currently_no_vehicles_added">Currently no vehicles are added!</string>
+    <string name="vehicle_company">Vehicle manufacturer</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="all_fields_are_mandatory">All fields are mandatory</string>
+    <string name="select_vehicle">Select vehicle number: </string>
+    <string name="ok">OK</string>
+    <string name="booking_number">Booking Number:</string>
+    <string name="date_of_booking">Booked on:</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="no_bookings_to_show">No bookings to show</string>
+    <string name="edit_vehicle_number">Edit Vehicle Registration Number</string>
+    <string name="edit_vehicle_manufacturer">Edit Vehicle Manufacturer</string>
+    <string name="edit_vehicle_model">Edit Vehicle Model</string>
+    <string name="edit_vehicle_type">Edit Vehicle Type</string>
+    <string name="submit">Submit</string>
+    <string name="edit_vehicle_details">Edit Vehicle Details</string>
+    <string name="signed_up_successfully">Signed up successfully</string>
+    <string name="booking_status">Booking Status:</string>
+
+
+</resources>

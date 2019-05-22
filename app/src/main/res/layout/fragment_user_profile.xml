@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:context=".views.fragments.UserProfileFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/username"
+                android:textColor="@color/colorDarkGreen"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_available"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/vehicles_added"
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_user_vehicles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tv_no_vehicles_to_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currently_no_vehicles_added"
+            android:layout_gravity="center"
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_add_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_vehicle"
+            android:textColor="@color/white"
+            android:background="@color/colorLightGreen"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

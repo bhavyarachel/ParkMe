@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.AddNewVehicleFragment"
+    android:orientation="vertical"
+    android:id="@+id/layout_root"
+    android:layout_marginTop="10dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_reg_number"
+        android:textColorHint="@color/colorDarkGreen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_vehicle_reg_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="10"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_company"
+        android:textColorHint="@color/colorDarkGreen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_vehicle_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_model"
+        android:textColorHint="@color/colorDarkGreen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_vehicle_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle_type"
+        android:textColor="@color/colorDarkGreen"
+        android:textSize="18sp"
+        android:layout_margin="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_vehicle_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_four_wheeler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/four_wheeler" />
+
+        <RadioButton
+            android:id="@+id/radio_two_wheeler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_wheeler" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_add_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_vehicle"
+        android:background="@color/colorLightGreen"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+
+</LinearLayout>
